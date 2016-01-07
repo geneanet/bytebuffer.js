@@ -1,16 +1,16 @@
 {
   "name": "bytebuffer",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "author": "Daniel Wirtz <dcode@dcode.io>",
   "description": "The swiss army knife for binary data in JavaScript.",
   "main": "dist/bytebuffer-node.js",
   "browser": "dist/bytebuffer.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dcodeIO/bytebuffer.js.git"
+    "url": "https://github.com/geneanet/bytebuffer.js.git"
   },
   "bugs": {
-    "url": "https://github.com/dcodeIO/bytebuffer.js/issues"
+    "url": "https://github.com/geneanet/bytebuffer.js/issues"
   },
   "keywords": [
     "net",
