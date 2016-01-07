@@ -3475,7 +3475,7 @@
                 else if ((a&0xF8) === 0xF0)
                     ((b=src()) === null || (c=src()) === null || (d=src()) === null) && fail([a, b, c ,d]),
                     dst(((a&0x07)<<18) | ((b&0x3F)<<12) | ((c&0x3F)<<6) | (d&0x3F));
-                else throw RangeError("Illegal starting byte: "+a);
+                else dst(a);
             }
         };
 
